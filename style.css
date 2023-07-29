@@ -1,0 +1,30 @@
+body 
+{
+    background-color: white;    
+    display: flex;
+}
+
+.left{
+    justify-content: flex-start;
+    background-color: #01385f;
+}
+
+.right{
+    justify-content: flex-end;
+    background-color: #A3D9FF;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+}
+
+.div_image{
+    display: flex;
+    justify-content: center;
+}
+
+.general_info{
+    color: white;
+    font-size: 15px;
+}
