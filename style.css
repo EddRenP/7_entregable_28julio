@@ -2,6 +2,7 @@ body
 {
     background-color: white;    
     display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .left{
@@ -17,9 +18,11 @@ body
 h1{
     color: white;
     font-size: 25px;
+    text-align: center;
 }
 
 .div_image{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -27,4 +30,104 @@ h1{
 .general_info{
     color: white;
     font-size: 15px;
+}
+
+#list-personal-info li {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.icons-personal-info{
+    background-color: white;
+    margin-left: -60px;
+    padding-left: 60px;
+    border-radius: 8px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.contact_info{
+    display: grid;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.visit_email{
+    width: 380px;
+    border: #082B45 5px solid;
+    border-radius: 5px;
+}
+
+#visit_info{
+    border: #082B45 5px solid;
+    border-radius: 5px;
+}
+
+.visit_send_data
+{
+	background: #239baa;
+	color: #FFF;
+    font-size: 20px;
+	padding: 10px 110px;
+    border: 0px;
+	border-radius: 4px;
+	margin: 20px;
+}
+
+.visit_send_data:hover{
+    background: #13768E;
+}
+
+.visit_send_data:active{
+    background: #88E8FE;
+}
+
+.right_h1{
+    background-color: #01385f;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.work_experience_text{
+    display: flex;
+    justify-content: center;
+}
+
+table th{
+    width: 400px;
+}
+table tr{
+    text-align: center;
+}
+
+.technical_abilities_text{
+    display: flex;
+    justify-content: center;
+}
+
+.technical_interests_text{
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies_icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons-hobbies{
+    background-color: white;
+    margin-left: 3px;
+    padding-left: 3px;
+    border-radius: 8px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }

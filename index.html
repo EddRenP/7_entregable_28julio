@@ -9,61 +9,71 @@
 <body>
     <div class="left">
         <div class="div_image">
-            <img src="pic.jpg" alt="Foto">
+            <img src="icons/pic.jpg" alt="Foto" width="250px" height="250px">
         </div>
         <div class="general_info">
-            <h1>Información General</h1>
-            <ul>
-                <li>Nombre y Apellidos: José Eduardo Rendón Paz</li>
-                <li>Email: eduardorendon99@gmail.com</li>
-                <li>Teléfono: 32471039</li>
-                <li>Domicilio: Colonia Prado Alto, Santa Rosa de Copán, Copán, Honduras</li>
-                <li><a href="https://github.com/EddRenP">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/eduardo-rendon-96aa48281/">Linkedin</a></li>
+            <div class="left_h1">
+                <h1>Información general y de contacto</h1>
+            </div>
+            <ul id="list-personal-info">
+                <li><img class="icons-personal-info" src="icons/name.png" width="20px" height="20px"> Nombre y Apellidos: José Eduardo Rendón Paz</li>
+                <li><img class="icons-personal-info" src="icons/email.png" width="20px" height="20px"> Email: eduardorendon99@gmail.com</li>
+                <li><img class="icons-personal-info" src="icons/phone.png" width="20px" height="20px"> Teléfono: 32471039</li>
+                <li><img class="icons-personal-info" src="icons/address.png" width="20px" height="20px"> Domicilio: Colonia Prado Alto, Santa Rosa de Copán, Copán, Honduras</li>
+                <li><img class="icons-personal-info" src="icons/github.png" width="20px" height="20px"> Perfil de <a href="https://github.com/EddRenP">Github</a></li>
+                <li><img class="icons-personal-info" src="icons/linkedin.png" width="20px" height="20px"> Perfil de <a href="https://www.linkedin.com/in/eduardo-rendon-96aa48281/">Linkedin</a></li>
             </ul>
         </div>
         <div class="contact_info">
-            <h1>Envia tu información de contacto</h1>
+            <div class="left_h1">
+                <h1>Comentarios</h1>
+            </div>
             <table>
                 <tr>
-                    <td><input type="text" class="visit_email" placeholder="Email..."></td>
+                    <td><input type="text" class="visit_email" autocomplete="disabled" placeholder="Email..."></td>
                 </tr>
                 <tr>
-                    <td><textarea name="visit_info" id="visit_info" class="visit_info" cols="55" rows="10"></textarea></td>
+                    <td><textarea name="visit_info" id="visit_info" class="visit_info" cols="50" rows="10"></textarea></td>
                 </tr>
                 <tr>
-                    <td><button class="visit_send_data">Enviar</button></td>
+                    <td><button class="visit_send_data">E N V I A R</button></td>
                 </tr>
             </table>
         </div>
     </div>
     <div class="right">
         <div class="work_experience">
-            <h1>Experiencia Laboral</h1>
-            <ol>
-                <li>Sistema Nacional de Emergencias 911, desarrollador (proyecto de clase) (8 de marzo de 2019 – 16 de diciembre de 2019)</li>
-                <ul>
-                    <li>Desarrollo de una aplicación móvil y pagina web para uso de la institución y de la comunidad del occidente del país para emergencias.</li>
-                </ul>
-                <li>Minerales de Occidente, desarrollador (tesis universitaria) (20 de enero de 2020 – 16 de marzo de 2020)</li>
-                <ul>
-                    <li>Desarrollo colaborativo de aplicaciones para uso interno de la empresa.</li>
-                    <li>Mantenimiento de distintos equipos y periféricos.</li>
-                    <li>Soporte técnico para empleados de la empresa.</li>
-                </ul>
-                <li>JoelZtilos, soporte técnico y desarrollador (1 de mayo de 2021 –  Actualidad)</li>
-                <ul>
-                    <li>Desarrollo e implementación de un sistema de inventario, facturación, cierre de caja y resumen de facturación.</li>
-                    <li>Mantenimiento de equipo informático (computadoras e impresoras).</li>
-                    <li>Mantenimiento de sistemas informáticos (Monica, Aspel, etc).</li>
-                    <li>Soporte técnico variado.</li>
-                    <li>Capacitación continua de los empleados que hacen uso de los distintos sistemas de la empresa.</li>
-                </ul>
-            </ol>
+            <div class="right_h1">
+                <h1>Experiencia Laboral</h1>
+            </div>
+            <div class ="work_experience_text">
+                <ol>
+                    <li>Sistema Nacional de Emergencias 911, desarrollador (proyecto de clase) (8 de marzo de 2019 – 16 de diciembre de 2019)</li>
+                    <ul>
+                        <li>Desarrollo de una aplicación móvil y pagina web para uso de la institución y de la comunidad del occidente del país para emergencias.</li>
+                    </ul>
+                    <li>Minerales de Occidente, desarrollador (tesis universitaria) (20 de enero de 2020 – 16 de marzo de 2020)</li>
+                    <ul>
+                        <li>Desarrollo colaborativo de aplicaciones para uso interno de la empresa.</li>
+                        <li>Mantenimiento de distintos equipos y periféricos.</li>
+                        <li>Soporte técnico para empleados de la empresa.</li>
+                    </ul>
+                    <li>JoelZtilos, soporte técnico y desarrollador (1 de mayo de 2021 –  Actualidad)</li>
+                    <ul>
+                        <li>Desarrollo e implementación de un sistema de inventario, facturación, cierre de caja y resumen de facturación.</li>
+                        <li>Mantenimiento de equipo informático (computadoras e impresoras).</li>
+                        <li>Mantenimiento de sistemas informáticos (Monica, Aspel, etc).</li>
+                        <li>Soporte técnico variado.</li>
+                        <li>Capacitación continua de los empleados que hacen uso de los distintos sistemas de la empresa.</li>
+                    </ul>
+                </ol>
+            </div>
         </div>
         <div class="technical_abilities">
-            <h1>Habilidades Técnicas</h1>
-            <table>
+            <div class="right_h1">
+                <h1>Habilidades Técnicas</h1>
+            </div>
+            <table class="technical_abilities_text">
                 <tr>
                     <th>No.</th>
                     <th>Descripción</th>
@@ -87,8 +97,10 @@
             </table>
         </div>
         <div class="technical_interests">
-            <h1>Intereses Técnicos</h1>
-            <table>
+            <div class="right_h1">
+                <h1>Intereses Técnicos</h1>
+            </div>
+            <table class="technical_interests_text">
                 <tr>
                     <th>No.</th>
                     <th>Descripción</th>
@@ -120,6 +132,17 @@
                     <td>Muy interesado</td>
                 </tr>
             </table>
+        </div>
+        <div class="hobbies">
+            <div class="right_h1">
+                <h1>Hobbies</h1>
+            </div>
+            <div class="hobbies_icons">
+                <img class="icons-hobbies" src="icons/gaming.png" width="75px" height="75px">
+                <img class="icons-hobbies" src="icons/music.png" width="75px" height="75px">
+                <img class="icons-hobbies" src="icons/books.png" width="75px" height="75px">
+                <img class="icons-hobbies" src="icons/programing.png" width="75px" height="75px">
+            </div>
         </div>
     </div>
 </body>
